@@ -335,6 +335,14 @@
             height: 100%;
             width: 100%;
             gap: 15px;
+
+            mat-icon {
+              //font-size: xx-large;
+            }
+
+            span {
+              //font-size: 18px;
+            }
           }
         }
       }
@@ -343,6 +351,11 @@
 
         .posts__header {
           display:flex;
+
+          img {
+
+          }
+
           .posts__header__right {
             display: flex;
             flex-direction: column-reverse;
